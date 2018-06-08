@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/cart_list_product_img"
+        android:scaleType="fitXY"
+        android:layout_width="150dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="21dp"
+        android:contentDescription="@string/product_image" />
+
+    <TextView
+        android:id="@+id/cart_list_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cart_list_product_price"
+        android:layout_alignStart="@+id/cart_list_product_price"
+        android:layout_below="@+id/cart_list_product_name"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/cart_list_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cart_list_product_description"
+        android:layout_alignStart="@+id/cart_list_product_description"
+        android:layout_alignTop="@+id/cart_list_product_img"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/cart_list_product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cart_list_product_description"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/cart_list_product_img"
+        android:layout_toRightOf="@+id/cart_list_product_img"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cart_list_product_img"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/remove_from_cart" />
+
+
+</RelativeLayout>

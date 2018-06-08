@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Checkit</string>
+    <string name="First_name">First Name</string>
+    <string name="Last_name">Last Name</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="password">password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="Username">Username</string>
+    <string name="signup">Don\'t have an account? </string>
+    <string name="login">Already Signed Up?</string>
+    <string name="loginbtn">Login</string>
+    <string name="signupbtn">Sign Up</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="home_fragment">This is a fragment</string>
+    <string name="start_camera">Camera</string>
+    <string name="search_hint">Search</string>
+
+    <string name="location_settings_inadequate_warning">The location settings on the device are not
+        adequate to run this sample. Fix in Settings.</string>
+
+    <string name="stop_updates">Stop updates</string>
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+
+    <string name="start_updates">Start updates</string>
+
+    <string-array name="my_nav_items">
+        <item>Home</item>
+        <item>Places</item>
+        <item>Scanner</item>
+        <item>Add to Store</item>
+        <item>My Store</item>
+        <item>Share</item>
+        <item>Help &amp; Feedback</item>
+    </string-array>
+    <array name="my_nav_icons">
+        <item>@drawable/ic_home_black_24dp</item>
+        <item>@drawable/ic_location_on_black_24dp</item>
+        <item>@drawable/ic_scanner_black_24dp</item>
+        <item>@drawable/ic_local_mall_black_24dp</item>
+        <item>@drawable/ic_store_black_24dp</item>
+        <item>@drawable/ic_share_black_24dp</item>
+        <item>@drawable/ic_help_black_24dp</item>
+    </array>
+    <string-array name="help_and_feedback">
+        <item>Help</item>
+        <item>Send Feedback</item>
+    </string-array>
+    <string-array name="item_category_options">
+        <item>Electronics</item>
+        <item>Clothing</item>
+        <item>Groceries</item>
+        <item>Cutllery</item>
+        <item>Stationery</item>
+        <item>Other</item>
+    </string-array>
+    <string name="in_store">In Store</string>
+    <string name="title_activity_navigate">Navigate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="featured_frag_text">this is the featured fragment</string>
+    <string name="community_frag">this is the community fragment</string>
+    <string name="help_and_feed_frag">this is the help and feedback fragment</string>
+    <string name="online_frag">This is the online search fragment</string>
+    <string name="my_icons">my_icons</string>
+    <string name="nav_header">nav_header</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="to_of_list">to_of_list</string>
+    <string name="pref_sync">Sync</string>
+    <string name="pref_sync_summ">Sync Summary</string>
+    <string name="pref_syncConnectionType">sync connection type</string>
+    <string name="permission_denied_explanation">PERMISSION DENIED</string>
+    <string name="settings">Settings</string>
+    <string name="permission_rationale">PERMISSION RATIONALE</string>
+    <string name="userimage">userImage</string>
+    <string name="hey">Hey</string>
+    <string name="app_icon">app_icon</string>
+    <string name="write_to_database">Write to database</string>
+    <string name="home">Home</string>
+    <string name="logout">logout</string>
+    <string name="process">Process</string>
+    <string name="barcodestarter">barcodestarter</string>
+    <string name="place">place</string>
+    <string name="set_route">Set Route</string>
+    <string name="place_img" />
+    <string name="change_location">Find Location</string>
+    <string name="product_description">product description</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Item Description</string>
+    <string name="item_price">Item Price</string>
+    <string name="save">Save</string>
+    <string name="add_image">Add Image</string>
+    <string name="quantity">Quantity</string>
+    <string name="user_profile">user profile</string>
+    <string name="product_image">product image</string>
+    <string name="buy">Buy</string>
+    <string name="contact_seller">Contact Seller</string>
+    <string name="store_1">Store 1</string>
+    <string name="store_2">Store 2</string>
+    <string name="store_3">Store 3</string>
+    <string name="add_to_cart">add to cart</string>
+    <string name="remove_from_cart">Remove From Cart</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_me_in">Login</string>
+    <string name="icon">icon</string>
+    <string name="email">Email</string>
+    <string name="remove_from_my_cart">Remove from cart</string>
+</resources>
